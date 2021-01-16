@@ -9,22 +9,21 @@ import requestSlot from './slots/requestSlot.mjs';
 import {require} from './requireCDN.mjs';
 
 const defaultCode = (
-	'title Labyrinth\n' +
-	'\n' +
-	'Bowie -> Goblin: You remind me of the babe\n' +
-	'Goblin -> Bowie: What babe?\n' +
-	'Bowie -> Goblin: The babe with the power\n' +
-	'Goblin -> Bowie: What power?\n' +
-	'note right of Bowie, Goblin: Most people get muddled here!\n' +
-	'Bowie -> Goblin: "The power of voodoo"\n' +
-	'Goblin -> Bowie: "Who-do?"\n' +
-	'Bowie -> Goblin: You do!\n' +
-	'Goblin -> Bowie: Do what?\n' +
-	'Bowie -> Goblin: Remind me of the babe!\n' +
-	'\n' +
-	'Bowie -> Audience: Sings\n' +
-	'\n' +
-	'terminators box\n'
+	'title Easy Sequence Diagram\n' +
+'\n' +
+'begin E1, E2, E3\n' +
+'E1  is person \n' +
+'E2  is database \n' +
+'\n' +
+'E1 ->  E2 : Some process\n' +
+'note over E1 , E2 : E1 returns some data to E2\n' +
+'E2-> E3: Again some data\n' +
+'\n' +
+'group Some sub process\n' +
+'E1 -> E3: Some data transfer\n' +
+'end\n' +
+'\n' +
+'terminators box'
 );
 
 function migrateOldDocument(slotStorage) {

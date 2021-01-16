@@ -8,6 +8,12 @@ This project includes a web page for editing the diagrams, but the core
 logic is available as a component which can be
 [included in other projects](https://davidje13.github.io/SequenceDiagram/library.htm).
 
+## Building project
+1. `npm run minify`
+2. `npm run start`
+Note: Make sure to clean your browser setting as its  PWA which caches data for each development change.
+
+
 ## Examples
 
 ### Simple Usage
