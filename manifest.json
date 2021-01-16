@@ -1,0 +1,28 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Sequence Diagram",
+    "short_name": "Sequence Diagra",
+    "scope": "/SequenceDiagram/",
+    "display": "standalone",
+    "start_url": "https://anuragvohraec.github.io/SequenceDiagram/",
+    "background_color": "#000000",
+    "theme_color": "default",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "https://anuragvohraec.github.io/SequenceDiagram/web/resources/favicon.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "https://anuragvohraec.github.io/SequenceDiagram/web/resources/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "432x432"
+        }
+    ],
+    "url": "https://anuragvohraec.github.io/SequenceDiagram"
+}
